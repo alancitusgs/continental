@@ -1,0 +1,56 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Home",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "pages-home"
+    },
+    {
+      "url": "/users/user-management",
+      "icon": "menu-icon tf-icons ti ti-user",
+      "name": "Usuarios",
+      "slug": "admin-usuarios"
+    },
+    {
+      "name": "Roles & Permisos",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "app-roles",
+      "submenu": [
+        {
+          "url": "app/acceso-roles",
+          "name": "Roles",
+          "slug": "app-access-roles"
+        },
+        {
+          "url": "app/access-permission",
+          "name": "Permisos",
+          "slug": "app-access-permission"
+        }
+      ]
+    },
+    {
+      "name": "Programas & Period.",
+      "icon": "menu-icon tf-icons ti ti-book",
+      "slug": "app-programas-roles",
+      "submenu": [
+        {
+          "url": "app/acceso-programas",
+          "name": "Programas",
+          "slug": "app-programas"
+        },
+        {
+          "url": "app/acceso-temporadas",
+          "name": "Periodos",
+          "slug": "app-temporadas"
+        }
+      ]
+    },
+    {
+      "url": "/app/acceso-cursos",
+      "name": "Producción General",
+      "icon": "menu-icon tf-icons ti ti-file",
+      "slug": "app-cursos"
+    }
+  ]
+}
