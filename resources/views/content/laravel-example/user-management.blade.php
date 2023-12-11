@@ -69,45 +69,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-xl-3">
-    <div class="card">
-      <div class="card-body">
-        <div class="d-flex align-items-start justify-content-between">
-          <div class="content-left">
-            <span>Duplicate Users</span>
-            <div class="d-flex align-items-end mt-2">
-              <h3 class="mb-0 me-2">{{$userDuplicates}}</h3>
-              <small class="text-success">(0%)</small>
-            </div>
-            <small>Recent analytics</small>
-          </div>
-          <span class="badge bg-label-danger rounded p-2">
-            <i class="ti ti-users ti-sm"></i>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-xl-3">
-    <div class="card">
-      <div class="card-body">
-        <div class="d-flex align-items-start justify-content-between">
-          <div class="content-left">
-            <span>Verification Pending</span>
-            <div class="d-flex align-items-end mt-2">
-              <h3 class="mb-0 me-2">{{$notVerified}}</h3>
-              <small class="text-danger">(+6%)</small>
-            </div>
-            <small>Recent analytics</small>
-          </div>
-          <span class="badge bg-label-warning rounded p-2">
-            <i class="ti ti-user-circle ti-sm"></i>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 <!-- Users List Table -->
 <div class="card">
   <div class="card-header">

@@ -49,7 +49,7 @@ $configData = Helper::appClasses();
     
     
     <li class="menu-item ">
-      <a href="http://continental.test/users/user-management" class="menu-link">
+      <a href="app/acceso-usuarios" class="menu-link">
                 <i class="menu-icon tf-icons ti ti-user"></i>
                 <div>Usuarios</div>
               </a>
@@ -104,7 +104,7 @@ $configData = Helper::appClasses();
 
     
     <li class="menu-item ">
-      <a href="http://continental.test/app/acceso-cursos" class="menu-link">
+      <a href="http://continental.test/app/acceso-produccion" class="menu-link">
                 <i class="menu-icon tf-icons ti ti-file"></i>
                 <div>Producción General</div>
               </a>

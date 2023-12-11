@@ -24,7 +24,7 @@
 @endsection
 
 @section('page-script')
-<script src="{{asset('assets/js/app-lista-Usuario.js')}}"></script>
+<script src="{{asset('assets/js/app-lista-usuarios.js')}}"></script>
 @endsection
 
 @section('content')
@@ -51,48 +51,8 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-xl-4">
-    <div class="card">
-      <div class="card-body">
-        <div class="d-flex align-items-start justify-content-between">
-          <div class="content-left">
-            <span>Usuarios Activos</span>
-            <div class="d-flex align-items-center my-2">
-              <h3 class="mb-0 me-2">{{$activos}}</h3>
-              <p class="text-success mb-0">({{($activos*100)/$usuarios->count()}}%)</p>
-            </div>
-            <!--<p class="mb-0">Last week analytics </p>-->
-          </div>
-          <div class="avatar">
-            <span class="avatar-initial rounded bg-label-danger">
-              <i class="ti ti-user-plus ti-sm"></i>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-xl-4">
-    <div class="card">
-      <div class="card-body">
-        <div class="d-flex align-items-start justify-content-between">
-          <div class="content-left">
-            <span>Usurios Desactivos</span>
-            <div class="d-flex align-items-center my-2">
-              <h3 class="mb-0 me-2">{{$desactivos}}</h3>
-              <p class="text-danger mb-0">({{($desactivos*100)/$usuarios->count()}}%)</p>
-            </div>
-            <!--<p class="mb-0">Last week analytics</p>-->
-          </div>
-          <div class="avatar">
-            <span class="avatar-initial rounded bg-label-success">
-              <i class="ti ti-user-check ti-sm"></i>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+
 </div>
 <div class="card">
   <div class="card-datatable table-responsive">

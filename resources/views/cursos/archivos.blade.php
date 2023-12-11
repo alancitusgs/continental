@@ -46,10 +46,10 @@ $configData = Helper::appClasses();
         </div>
         <div class="d-flex justify-content-between align-items-end mt-1">
           <div class="role-heading">
-            <h4 class="mb-1">ENTREGABLES DI</h4>
+            <h4 class="mb-1">SEMIPRESENCIAL</h4>
             <div class="d-flex align-items-center">
               
-              <a  href="{{ route('app-archivos') }}"type="button" class="delete-button" ><i class="ti ti-file-arrow-right ti-sm mx-2"></i></a>
+              <a  href="{{ route('app-listado') }}" type="button" class="delete-button" ><i class="ti ti-file-arrow-right ti-sm mx-2"></i></a>
           
             </div>
           </div>
@@ -68,7 +68,7 @@ $configData = Helper::appClasses();
         </div>
         <div class="d-flex justify-content-between align-items-end mt-1">
           <div class="role-heading">
-            <h4 class="mb-1">VALIDADOS</h4>
+            <h4 class="mb-1">A DISTANCIA</h4>
             <div class="d-flex align-items-center">
               
               <a  href="#" type="button" class="delete-button" ><i class="ti ti-file-arrow-right ti-sm mx-2"></i></a>

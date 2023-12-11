@@ -102,6 +102,12 @@ Route::delete('/app/eliminar-programa/{id}', $controller_path . '\Admin\Programa
 
 Route::get('/app/acceso-carpeta', $controller_path . '\Admin\CursoController@carpeta')->name('app-acceso-carpeta');
 
+Route::get('/app/archivos', $controller_path . '\Admin\CursoController@archivos')->name('app-archivos');
+
+Route::get('/app/listado', $controller_path . '\Admin\CursoController@listado')->name('app-listado');
+
+Route::get('/app/subir', $controller_path . '\Admin\CursoController@subir')->name('app-subir');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

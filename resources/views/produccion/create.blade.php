@@ -16,6 +16,7 @@
 <script src="{{asset('assets/vendor/libs/bootstrap-maxlength/bootstrap-maxlength.js')}}"></script>
 <script src="{{asset('assets/vendor/libs/jquery-repeater/jquery-repeater.js')}}"></script>
 <script src="{{asset('assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.js')}}"></script>
+<script src="{{asset('assets/js/forms-selects.js')}}"></script>
 @endsection
 
 
@@ -82,8 +83,9 @@
 
     
             <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
-              <label class="form-label" for="nivel_ingles">Ciclo:</label>
-              <select id="ciclo" name="ciclo" class="select2 form-select" data-allow-clear="true" required>
+                <label for="select2Primary" class="form-label">Ciclo:</label>
+            <div class="select2-primary">
+              <select id="ciclo" name="ciclo" class="select2 form-select" multiple>
                 <option value="">Selecccione</option>
                 <option value="1">1</option>  
                 <option value="2">2</option> 
@@ -99,7 +101,8 @@
                 <option value="12">12</option> 
               </select>
             </div>
-       
+            </div>
+
             <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
               <label class="form-label" for="nivel_ingles">Modalidad:</label>
               <select id="modalidad" name="modalidad" class="select2 form-select" data-allow-clear="true" required>
@@ -113,6 +116,7 @@
                 <option value="7">Presencial, semipresencial y A distancia</option>
               </select>
             </div>
+        
  
              
             <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
@@ -146,18 +150,18 @@
 
             <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
               <label class="form-label" for="duracion_p">Duración semana P:</label>
-              <input type="text" id="duracion_p" name="duracion_p" class="form-control" placeholder="Codigo"/>
+              <input type="text" id="duracion_p" name="duracion_p" class="form-control"/>
             </div>
 
             
             <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
               <label class="form-label" for="duracion_sp">Duración semana SP:</label>
-              <input type="text" id="duracion_sp" name="duracion_sp" class="form-control" placeholder="Codigo"/>
+              <input type="text" id="duracion_sp" name="duracion_sp" class="form-control" />
             </div>
 
             <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
               <label class="form-label" for="nivel_ingles">Duración semana D:</label>
-              <input type="text" id="duracion_d" name="duracion_d" class="form-control" placeholder="Codigo"/>
+              <input type="text" id="duracion_d" name="duracion_d" class="form-control" />
             </div>
          
           <div class="col-12 text-center mt-4">

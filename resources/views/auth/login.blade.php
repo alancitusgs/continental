@@ -48,7 +48,7 @@ $configData = Helper::appClasses();
           @csrf
           <div class="mb-3">
             <label for="login-email" class="form-label"><b>Correo electronico (*):</b></label>
-            <input type="text" class="form-control @error('email') is-invalid @enderror" id="login-email" name="email" placeholder="alguien@dominio.com" autofocus value="{{ old('email') }}">
+            <input type="text" class="form-control @error('email') is-invalid @enderror" id="login-email" name="email" placeholder="usuario@correo.com" autofocus value="{{ old('email') }}">
             @error('email')
             <span class="invalid-feedback" role="alert">
               <span class="fw-medium">{{ $message }}</span>

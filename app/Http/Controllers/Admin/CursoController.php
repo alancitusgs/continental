@@ -102,6 +102,23 @@ class CursoController extends Controller
       return view('cursos.carpetas');
     }
 
+    public function archivos()
+    {
+      return view('cursos.archivos');
+    }
+
+    public function listado()
+    {
+      return view('cursos.listado');
+    }
+
+    public function subir()
+    {
+      return view('cursos.subir');
+    }
+
+
+
     public function buscarCurso(Request $request)
     {
         $codigoAsignatura = $request->codigo_asignatura;

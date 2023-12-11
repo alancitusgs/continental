@@ -37,49 +37,76 @@ $configData = Helper::appClasses();
 <!-- Role cards -->
 <div class="row g-4">
 
-  <div class="col-xl-4 col-lg-6 col-md-6">
-    <div class="card">
-      <div class="card-body">
-        <div class="d-flex justify-content-between">
-              <ul class="list-unstyled d-flex align-items-center avatar-group mb-0">
-
-        </div>
-        <div class="d-flex justify-content-between align-items-end mt-1">
-          <div class="role-heading">
-            <h4 class="mb-1">ENTREGABLES DI</h4>
-            <div class="d-flex align-items-center">
-              
-              <a  href="{{ route('app-archivos') }}"type="button" class="delete-button" ><i class="ti ti-file-arrow-right ti-sm mx-2"></i></a>
-          
-            </div>
-          </div>
-       
-        </div>
+<div class="col-xl-4 col-lg-6 col-md-6">
+  <div class="card">
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h4 class="mb-0">INFORMACIÓN GENERAL</h4>
+        <a href="{{ route('app-subir') }}" class="btn btn-sm btn-outline-primary"><i class="ti ti-upload me-2"></i> Subir Archivos</a>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="col-xl-4 col-lg-6 col-md-6">
-    <div class="card">
-      <div class="card-body">
-        <div class="d-flex justify-content-between">
-              <ul class="list-unstyled d-flex align-items-center avatar-group mb-0">
 
-        </div>
-        <div class="d-flex justify-content-between align-items-end mt-1">
-          <div class="role-heading">
-            <h4 class="mb-1">VALIDADOS</h4>
-            <div class="d-flex align-items-center">
-              
-              <a  href="#" type="button" class="delete-button" ><i class="ti ti-file-arrow-right ti-sm mx-2"></i></a>
-          
-            </div>
-          </div>
-       
-        </div>
+    <div class="col-xl-4 col-lg-6 col-md-6">
+  <div class="card">
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h4 class="mb-0">UNIDAD 1</h4>
+        <a href="{{ route('app-subir') }}" class="btn btn-sm btn-outline-primary"><i class="ti ti-upload me-2"></i> Subir Archivos</a>
       </div>
     </div>
   </div>
+</div>
+
+
+    
+    <div class="col-xl-4 col-lg-6 col-md-6">
+  <div class="card">
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h4 class="mb-0">UNIDAD 2</h4>
+        <a href="#" class="btn btn-sm btn-outline-primary"><i class="ti ti-upload me-2"></i> Subir Archivos</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+    <div class="col-xl-4 col-lg-6 col-md-6">
+  <div class="card">
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h4 class="mb-0">UNIDAD 3</h4>
+        <a href="#" class="btn btn-sm btn-outline-primary"><i class="ti ti-upload me-2"></i> Subir Archivos</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="col-xl-4 col-lg-6 col-md-6">
+  <div class="card">
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h4 class="mb-0">UNIDAD 4</h4>
+        <a href="#" class="btn btn-sm btn-outline-primary"><i class="ti ti-upload me-2"></i> Subir Archivos</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+ 
+</div>
+
+
+
+
+
+
 
 
   <!--<div class="col-12">
@@ -103,7 +130,7 @@ $configData = Helper::appClasses();
     </div>
     Role Table
   </div>-->
-</div>
+
 <!--/ Role cards -->
 
 <!-- Add Role Modal -->
